@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 auto;
+}
+
+section:nth-child(even) {
+    background-color: seashell;
+}
+
+.t-wrap h2 {
+    font-size: 5rem;
+    line-height: 1;
+}
