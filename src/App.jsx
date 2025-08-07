@@ -1,18 +1,15 @@
 import './App.css'
-import Hero from './components/Hero'
-import Contact from './components/Contact'
-import Aboutme from './components/Aboutme'
-import Skill from './components/Skill'
+import FocusInput from'./components/FocusInput'
+import Counter from'./components/Counter'
+import InputTracker from './components/InputTracker'
 function App() {
 
 
   return (
     <div>
-    <Hero/>
-    <Contact/>
-    <Aboutme/>
-    <Skill/>
-
+      <FocusInput/>
+      <Counter/>
+      <InputTracker/>
     </div>
   )
 }
